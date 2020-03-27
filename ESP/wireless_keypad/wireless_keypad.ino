@@ -7,7 +7,7 @@ const int KP_ROW[] = {15, 13, 12, 14};
 const int KP_COL[] = {2, 0, 4};
 //                   D4 D3 D2
 
-const int LED = 16;
+const int LED = LED_BUILTIN;
 
 int btn = 0;
 String key = "";
